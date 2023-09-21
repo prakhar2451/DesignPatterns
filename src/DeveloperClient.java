@@ -5,7 +5,7 @@
 public class DeveloperClient {
 
     /**
-     * The main method creates instances of employees and prints their salaries.
+     * The main method creates instances of employees and prints their salaries
      */
     public static void main(String[] args) {
 

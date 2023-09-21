@@ -1,4 +1,5 @@
 
  interface Employee {
+
     int salary();
 }

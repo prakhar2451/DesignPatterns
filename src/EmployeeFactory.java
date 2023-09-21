@@ -4,7 +4,7 @@
 public class EmployeeFactory {
 
     /**
-     * Returns an instance of the specified type of employee.
+     * Returns an instance of the specified type of employee
      * @param empType The type of employee to be created ("Android Developer" or "Web Developer").
      * @return An instance of the specified type of employee, or null if the type is not recognized.
      */
