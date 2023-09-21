@@ -1,0 +1,50 @@
+Factory Design Pattern :
+        The Factory Design Pattern is a creational design pattern used in object-oriented programming.
+        It provides an interface for creating objects but allows subclasses to alter the type of objects
+        that will be created.
+        In other words, it abstracts the process of creating objects, making it possible to specify the
+        type of object that will be created at runtime.
+Purpose:
+        Creational design pattern.
+        Provides an interface for creating objects but allows subclasses to alter the type of objects that will be created.
+
+Key Components:
+        Product: Interface or abstract class defining the common interface for all objects created by the factory.
+        Concrete Products: Specific implementations of the product interface.
+        Factory: Interface or abstract class declaring the method for creating objects.
+        Concrete Factory: Provides implementations for creating specific types of objects.
+
+How It Works:
+        The client code requests an object creation from the factory.
+        The factory determines which concrete class to instantiate based on the provided input.
+        The factory then creates and returns an instance of the appropriate concrete class.
+
+Advantages:
+        Decouples the client from the concrete classes, promoting flexibility and maintainability.
+        Allows for easy addition of new subclasses without modifying the client code.
+
+Use Cases:
+        When the system needs to be independent of how its objects are created, composed, and represented.
+        When the system is configured with multiple families of related or dependent objects.
+
+Example:
+       Creating different types of employees (e.g., Web Developer, Android Developer) using an EmployeeFactory.
+
+Variations:
+        Factory Method Pattern: Each subclass of the factory is responsible for creating instances of specific classes.
+        Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects.
+
+Considerations:
+        Ensure that the factory method returns a consistent type of object.
+        Be mindful of maintaining a clear separation of concerns between the factory and the created objects.
+
+Potential Drawbacks:
+        Overuse of the pattern can lead to code complexity and unnecessary abstraction.
+        It may be overkill for simple scenarios with only one type of product.
+
+Best Practices:
+        Use when the system needs to be insulated from the details of object creation.
+        Consider the complexity and size of the system to determine if the pattern is appropriate.
+
+Real-World Analogy:
+        Car manufacturing plants serve as factories producing various models (products) based on customer specifications.
