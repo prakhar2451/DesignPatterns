@@ -159,5 +159,5 @@ Finally, we use the builder to construct the `Computer` object with the desired 
     - It may also be over-engineering for simpler cases where object construction is straightforward.
 
 12. **Could you compare the Builder Pattern with other patterns like the Prototype or Abstract Factory?**
-    - Certainly! While the Builder Pattern focuses on step-by-step construction of a complex object, the Prototype Pattern is about creating new objects by copying an existing object.
+    - Certainly! While the Builder Pattern focuses on step-by-step construction of a complex object,the Prototype Pattern is about creating new objects by copying an existing object.
     - The Abstract Factory Pattern is concerned with creating families of related or dependent objects.

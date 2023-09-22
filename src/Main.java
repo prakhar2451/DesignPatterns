@@ -6,7 +6,6 @@ public class Main {
                 .buildStorage("512GB SSD")
                 .buildGraphicsCard("NVIDIA RTX 3080")
                 .getComputer();
-
         System.out.println(computer);
     }
 }

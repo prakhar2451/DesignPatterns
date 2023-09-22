@@ -13,10 +13,12 @@ class Computer {
     }
 
     public void setStorage(String storage) {
+
         this.storage = storage;
     }
 
     public void setGraphicsCard(String graphicsCard) {
+
         this.graphicsCard = graphicsCard;
     }
 
